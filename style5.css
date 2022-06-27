@@ -1,0 +1,82 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.bg-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) , url(/images/bg-img.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.text{
+    color: whitesmoke;
+    text-align: right;
+    line-height: 15px;
+    padding-top: 25px;
+}
+.card{
+    position: relative;
+    border: 2px solid whitesmoke;
+    border-radius: 2%;
+    background-color: transparent;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    margin-right: 0px;
+}
+.logo{
+    position: absolute;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    height: 200px;
+    width: 100px;
+    left: 0;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt{
+    position: absolute;
+    color: whitesmoke;
+    left: 30%;
+    top: 10%;
+}
+.flex-container{
+    display: flex;
+    float: right;
+}
+
+.icons li{
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    margin-left: -73%;
+    text-align: right;
+    font-size: 24px;
+    transition: 1s;
+}
+.icons ul{
+    position: absolute;
+    padding-inline-start: 0%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    top: 30%;
+    list-style-type: none;
+}
+.icons ul :hover{
+    cursor: pointer;
+    transform: translateX(100px);
+    transition: 1s;
+}
