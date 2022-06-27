@@ -9,7 +9,7 @@ body{
     margin: auto;
 }
 .bg-img{
-    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) , url(/images/bg-img.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) , url(../bg-img.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
